@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="enter your name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email">
+        <br>
+        <select name="color" id="">
+            <option value="red">RED</option>
+            <option value="green">Green</option>
+        </select>
+        <br>
+        <textarea name="paragraph" id="paragraph"></textarea>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password">
+        <br>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading" name="Hobbies" value="Reading">
+            <label for="gaming">Reading</label>
+            <input type="checkbox" id="gaming" name="Hobbies" value="gaming">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>gender</legend>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </fieldset>
+        <br>
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume" name="resume" accept=".pdf.docx">
+        <br>
+        <label for="volume">volume</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="5">
+        <br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <label for="date&time">date and time:</label>
+        <input type="datetime-local" id="date&time" name="date&time">
+        <br>
+        <label for="color">color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
